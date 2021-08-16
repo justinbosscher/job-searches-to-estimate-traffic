@@ -5,8 +5,8 @@
 
 
 # Working Directory ----
-setwd("/home/optimus/Dev/DS_Projects/jobs_searches_traffic") 
-
+wd <- paste("~/Dev/DS_Projects/job_searches_traffic") 
+setwd(wd)
 
 # Load libraries
 library(ggplot2)    # For plotting
@@ -18,9 +18,9 @@ library(stargazer)  # For creating summary tables
 ###### DATA ####################################################################
 
 # Load and manipulate data ----
-data <- read.csv("data.csv", na.strings = "..")         # Original data
-data1 <- read.csv("data1.csv")                          # Altered data
-data1T <- read.csv("data1T.csv")                        # Transformed data
+data <- read.csv("assets/data.csv", na.strings = "..")         # Original data
+data1 <- read.csv("assets/data1.csv")                          # Altered data
+data1T <- read.csv("assets/data1T.csv")                        # Transformed data
 
 # Print data
 dput(data)
@@ -757,7 +757,7 @@ stargazer(reg.sSc, reg.swSc, reg.swSc.mod3.wf, reg.swSc.mod4.wf,
           notes="c = constant, s = seasonally adjusted, w = weather, f = fuel, S = scaled, t = transformed; ~ transformed independent variable; * p<0.1; ** p<0.05; *** p<0.01",
           notes.align="l",
           notes.append=FALSE,
-          out="selectedModels1.html")
+          out="plots/selectedModels1.png")
 
 
 # Table of descriptive stats on data1
