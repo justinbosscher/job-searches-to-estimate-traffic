@@ -22,12 +22,11 @@ The purpose of this project is to estimate the number of miles driven using onli
 
 ## Project Description
 Sitting in traffic during a daily commute is an experience to which most can relate, and it has even become synonymous with the American way of life. It involves accidents, the loss of time spent idle, road rage, and pollution. As if to add insult to injury, all of this can be had for the price of a depreciating car, fuel, and insurance. For many, it is an inescapable reality that something more productive could be done during this time. Determinants of the number of miles that are driven each year include population, the quality and access to public transportation, the condition of the job market, fuel price levels, and more. New, digital technologies offer new vantage points from which researchers can observe and record human behavior. And, as social interactions take place online at an increasing rate, researchers are now able to observe human behavior in ways which might allow them to include new data in a model, as well as to measure and evaluate existing determinants used by previous models in
-new ways. The purpose of this study is to understand the significance these data might have when used to model the number of miles driven. The following question will be addressed: Does the number of online job searches affect the number miles driven? It is expected that the number of job searches reflects the level of employment and a decrease of employment should reduce commuter traffic, as well as, traffic associated with recreation and consumption. As part of this
-study, investigation will include the following hypothesis:
+new ways. The purpose of this study is to understand the significance these data might have when used to model the number of miles driven. The following question will be addressed: Does the number of online job searches affect the number miles driven? It is expected that the number of job searches reflects the level of employment and a decrease of employment should reduce commuter traffic, as well as, traffic associated with recreation and consumption. As part of this study, investigation will include the following hypothesis:
 
-H 0 : A greater number of online job searches does not result in fewer miles driven.
+$ {H}_0:$ A greater number of online job searches does not result in fewer miles driven.
 
-β = 0, p > 0.05
+$ β = 0, p > 0.05 $
 
 
 ## I. Data
@@ -38,7 +37,7 @@ reformed gasoline, and number 2 diesel were evaluated as separate variables. Wea
 ## II. Methodology
 The results presented for each month are from an ordinary least squares regression of the following form:
 
-milesi =αi + βi1popi + βi2Xi + βi3Zi + βi4jobsi +εi
+$ {miles}_{i} = { \alpha }_i + {{ \beta }_i}_1pop_i + {{ \beta }_i}_2X_i + {{ \beta }_i}_3Z_i + {{ \beta }_i }_4jobs_i + { \epsilon }_i $
 
 where i indexes the month and the dependent variable is the number of total miles driven in the United States. Of the independent variables, α is the intercept, pop is the population of the U.S.; X is some combination of the retail prices expressed as U.S. Dollar per gallon of reformed gasoline, conventional gasoline, and number 2 diesel; Z is some combination of the variables representing the number of days of very wet, very warm, very dry, or very cold weather; jobs is the sum of the level of interest of a list of search terms which represent an individual’s need or desire to find a job; and, ε is the error term. The number of miles driven was modeled using both seasonally adjusted and not seasonally adjusted data. Different combinations of independent variables were used. The data were scaled and in some models, the data were transformed by taking their square roots.
 
@@ -53,7 +52,7 @@ Models (4) and (6) estimate the number of miles driven by including a variable f
 ## IV. Conclusion
 The preferred model is (4). The model for the preferred model is below:
 
-milesi = αi + βi1popi + βi2convgasi + βi3dieseli + βi4jobsi + βi5colddaysi + βi6warmdaysi + εi
+$ \widehat{miles}_{i}  =  \widehat{ \alpha }_i +  \widehat{ \beta }_i1pop_i +  \widehat{ \beta }_i2convgas_i + \widehat{ \beta }_i3diesel_i + \widehat{{ \beta }_i }_4jobs_i + \widehat{ \beta }_i5colddays_i + \widehat{ \beta }_i6warmdays_i + \widehat{ \epsilon }_i $
 
 The variables are significant at the 99.0 percent level with the exception of the variable for very warm days which is significant at the 90.0 percent level. Its inclusion resulted in the adjusted R 2 increasing to 0.8410 from Model (3) (0.8382). The warm days variable explains some variation in the number of miles driven due to weather and its inclusion is in line with theory. The number of miles driven is expected to increase slightly as employees must go to work on these days and driving due to recreation such as travelling to an ocean or to a lake is likely to increase. This is reflected in both sign and magnitude of the coefficient (2.133). The sign and the greater magnitude for very cold days (-6.453) is likely due to an inability to drive due to snow and/or a lack of desire to leave the house. The coefficient for job searches is -0.0436. The model estimates that, on average, the number of miles driven each month decreases by 0.44 billion, all other things remaining equal. And, because the jobs variable is significant at the 99.0 percent level, the null hypothesis that β=0 is rejected. The number of online jobs searches, therefore is significant enough to include in this model for the number of miles driven. Chart 1 shows the actual versus fitted values for the model.
 
