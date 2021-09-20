@@ -1,6 +1,19 @@
 ![R 4.1.1](https://img.shields.io/badge/R-4.1.1-blue?style=plastic)
-![License](https://img.shields.io/github/license/justinbosscher/job-searches-to-estimate-traffic?style=plastic)
+![License](https://img.shields.io/github/license/justinbosscher/:job-searches-to-estimate-traffic?style=plastic)
+
 # Using Online Job Searches to Estimate Traffic
+
+## Table of Contents
+* [Project Objective](#project-objective)
+* [Methods](#methods)
+* [Technologies](#technologies)
+* [Getting Started](#getting-started)
+* [Project Description](#project-description)
+* [I. Data](#i-data)
+* [II. Methodology](#ii-methodology)
+* [III. Results](#iii-results)
+* [IV. Conclusion](#iv-conclusion)
+* [License](#license)
 
 ## Project Objective
 The purpose of this project is to estimate the number of miles driven using online job searches. The following question is addressed: Does the number of job searches affect the number of miles driven?
