@@ -1,3 +1,5 @@
+![R 4.1.1](https://img.shields.io/badge/R-4.1.1-blue?style=plastic)
+![License](https://img.shields.io/github/license/justinbosscher/job-searches-to-estimate-traffic?style=plastic)
 # Using Online Job Searches to Estimate Traffic
 
 ## Project Objective
@@ -65,3 +67,14 @@ Below is a table of the results from the most promising models.
 The plot of the number of miles driven predicted by the preferred specification versus the actual miles driven is below. It includes the line of best fit, and each data point is shaded based on the number of job searches.
 
 ![OLS Results Table](plots/preferredPlot-swSc-mod4-wf.jpeg)
+
+## License
+MIT License
+
+Copyright (c) 2021 Justin Bosscher
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
